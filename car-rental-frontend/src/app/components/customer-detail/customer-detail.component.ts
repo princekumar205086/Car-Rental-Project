@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {CustomerService} from '../../services/customer.service';
 import {Customer} from '../../models/customer';
-import {FormBuilder, FormGroup, Validators} from '@angular/forms';
+import {UntypedFormBuilder, UntypedFormGroup, Validators} from '@angular/forms';
 import {ToastrService} from 'ngx-toastr';
 import {LocalStorageService} from '../../services/local-storage.service';
 
@@ -12,11 +12,11 @@ import {LocalStorageService} from '../../services/local-storage.service';
 })
 export class CustomerDetailComponent implements OnInit {
   customer: Customer;
-  userUpdateForm: FormGroup;
-  customerUpdateForm: FormGroup;
+  userUpdateForm: UntypedFormGroup;
+  customerUpdateForm: UntypedFormGroup;
 
   constructor(public customerService: CustomerService,
-              private formBuilder: FormBuilder,
+              private formBuilder: UntypedFormBuilder,
               private localStorageService: LocalStorageService,
               private toastrService: ToastrService) {
   }

@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {FormBuilder, FormGroup, Validators} from '@angular/forms';
+import {UntypedFormBuilder, UntypedFormGroup, Validators} from '@angular/forms';
 import {CarService} from '../../services/car.service';
 import {ToastrService} from 'ngx-toastr';
 import {Car} from '../../models/car';
@@ -11,10 +11,10 @@ import {Car} from '../../models/car';
 })
 export class CarUpdateComponent implements OnInit {
 
-  carUpdateForm: FormGroup;
+  carUpdateForm: UntypedFormGroup;
   currentCar: Car;
 
-  constructor(private formBuilder: FormBuilder,
+  constructor(private formBuilder: UntypedFormBuilder,
               private carService: CarService,
               private toastrService: ToastrService) {
   }

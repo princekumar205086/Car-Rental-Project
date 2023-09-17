@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {FormGroup, FormBuilder, FormControl, Validators} from '@angular/forms';
+import {UntypedFormGroup, UntypedFormBuilder, FormControl, Validators} from '@angular/forms';
 import {ColorService} from '../../services/color.service';
 import {ToastrService} from 'ngx-toastr';
 
@@ -10,9 +10,9 @@ import {ToastrService} from 'ngx-toastr';
 })
 export class ColorAddComponent implements OnInit {
 
-  colorAddForm: FormGroup;
+  colorAddForm: UntypedFormGroup;
 
-  constructor(private colorService: ColorService, private formBuilder: FormBuilder,
+  constructor(private colorService: ColorService, private formBuilder: UntypedFormBuilder,
               private toastrService: ToastrService) {
   }
 

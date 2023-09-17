@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {FormGroup, FormBuilder, Validators} from '@angular/forms';
+import {UntypedFormGroup, UntypedFormBuilder, Validators} from '@angular/forms';
 import {AuthService} from '../../services/auth.service';
 import {ToastrService} from 'ngx-toastr';
 import {CustomerService} from '../../services/customer.service';
@@ -15,9 +15,9 @@ import {LocalStorageService} from '../../services/local-storage.service';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-  loginForm: FormGroup;
+  loginForm: UntypedFormGroup;
 
-  constructor(private formBuilder: FormBuilder,
+  constructor(private formBuilder: UntypedFormBuilder,
               private authService: AuthService,
               private customerService: CustomerService,
               private findexService: FindexService,
