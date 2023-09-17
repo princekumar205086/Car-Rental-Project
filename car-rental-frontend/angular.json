@@ -115,5 +115,8 @@
       }
     }
   },
-  "defaultProject": "car-rental-frontend"
+  "defaultProject": "car-rental-frontend",
+  "cli": {
+    "analytics": "de18193d-be7b-4e6f-b1c9-f78def464b84"
+  }
 }
