@@ -1,0 +1,1 @@
+{"ast":null,"code":"export let AppSettings = /*#__PURE__*/(() => {\n  var _class;\n  class AppSettings {}\n  _class = AppSettings;\n  _class.API_ENDPOINT = 'https://localhost:44324/api/';\n  _class.API_UPLOADS = 'https://localhost:44324/uploads/';\n  return AppSettings;\n})();","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}
