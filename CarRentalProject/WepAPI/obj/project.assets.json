@@ -1,0 +1,121 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Autofac.Extensions.DependencyInjection >= 7.1.0",
+      "Microsoft.AspNetCore.Authentication.JwtBearer >= 3.1.12"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Prince Raj\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\fullstack\\dotnet_project\\Car-Rental-Project\\CarRentalProject\\WepAPI\\WepAPI.csproj",
+      "projectName": "WepAPI",
+      "projectPath": "D:\\fullstack\\dotnet_project\\Car-Rental-Project\\CarRentalProject\\WepAPI\\WepAPI.csproj",
+      "packagesPath": "C:\\Users\\Prince Raj\\.nuget\\packages\\",
+      "outputPath": "D:\\fullstack\\dotnet_project\\Car-Rental-Project\\CarRentalProject\\WepAPI\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Prince Raj\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "D:\\fullstack\\dotnet_project\\Car-Rental-Project\\CarRentalProject\\Business\\Business.csproj": {
+              "projectPath": "D:\\fullstack\\dotnet_project\\Car-Rental-Project\\CarRentalProject\\Business\\Business.csproj"
+            },
+            "D:\\fullstack\\dotnet_project\\Car-Rental-Project\\CarRentalProject\\Core\\Core.csproj": {
+              "projectPath": "D:\\fullstack\\dotnet_project\\Car-Rental-Project\\CarRentalProject\\Core\\Core.csproj"
+            },
+            "D:\\fullstack\\dotnet_project\\Car-Rental-Project\\CarRentalProject\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "D:\\fullstack\\dotnet_project\\Car-Rental-Project\\CarRentalProject\\DataAccess\\DataAccess.csproj"
+            },
+            "D:\\fullstack\\dotnet_project\\Car-Rental-Project\\CarRentalProject\\Entities\\Entities.csproj": {
+              "projectPath": "D:\\fullstack\\dotnet_project\\Car-Rental-Project\\CarRentalProject\\Entities\\Entities.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "Autofac.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[7.1.0, )"
+          },
+          "Microsoft.AspNetCore.Authentication.JwtBearer": {
+            "target": "Package",
+            "version": "[3.1.12, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.32, 3.1.32]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Au~tofac.Extras.DynamicProxy"
+    }
+  ]
+}

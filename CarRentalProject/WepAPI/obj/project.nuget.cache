@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "jqUhIUbsmMExcJdotTB95q/gOkCsVDetcw3Ei9K4KB3FCM7utS/dyCq4VVNfZO1DY3v7YloUDZ7M7esObIU1lg==",
+  "success": false,
+  "projectFilePath": "D:\\fullstack\\dotnet_project\\Car-Rental-Project\\CarRentalProject\\WepAPI\\WepAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Prince Raj\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Prince Raj\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Prince Raj\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Prince Raj\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Au~tofac.Extras.DynamicProxy"
+    }
+  ]
+}
